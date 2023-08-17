@@ -1,0 +1,32 @@
+{
+  "name": "@jp-knj/iac-stylelint",
+  "version": "1.0.0",
+  "description": "lint CSS Modules for design tokens",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knj-labo/iac-stylelint.git"
+  },
+  "author": "jp-knj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knj-labo/iac-stylelint/issues"
+  },
+  "homepage": "https://github.com/knj-labo/iac-stylelint#readme",
+  "devDependencies": {
+    "eslint": "8.47.0",
+    "eslint-plugin-unicorn": "48.0.1",
+    "jest-preset-stylelint": "6.2.0",
+    "prettier": "3.0.2"
+  },
+  "dependencies": {
+    "csstype": "3.1.2",
+    "postcss": "8.4.28",
+    "stylelint": "15.10.2",
+    "typescript": "5.1.6"
+  }
+}
