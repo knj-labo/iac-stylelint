@@ -1,0 +1,11 @@
+# editorconfig
+.idea
+
+# dependencies
+node_modules
+
+# local env files
+pnpm-lock.yaml
+
+# build output
+build
