@@ -2,10 +2,10 @@
   "name": "@jp-knj/iac-stylelint",
   "version": "1.0.0",
   "description": "lint CSS Modules for design tokens",
-  "main": "build/index.js",
+  "main": "../build/index.js",
   "scripts": {
-    "build": "tsc",
-    "lint": "eslint src"
+    "build": "../node_modules/.bin/tsc",
+    "lint": "../node_modules/.bin/eslint packages/src"
   },
   "repository": {
     "type": "git",

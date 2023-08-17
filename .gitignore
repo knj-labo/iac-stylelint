@@ -2,10 +2,10 @@
 .idea
 
 # dependencies
-node_modules
+packages/node_modules
 
 # local env files
-pnpm-lock.yaml
+packages/pnpm-lock.yaml
 
 # build output
 build
